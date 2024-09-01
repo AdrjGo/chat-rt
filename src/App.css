@@ -1,0 +1,98 @@
+body {
+  color-scheme: ligth dark;
+  color: white;
+}
+
+.title{
+text-align: center;
+}
+
+.container {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.display {
+  padding: 50px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+p{
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.name{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.time{
+  font-size: small;
+  color: #8d8d8d;
+}
+
+.input-message {
+  bottom: 0;
+  padding: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.input {
+  font-size: larger;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 90%;
+  padding: 15px;
+  border: solid 1px black;
+}
+.send-button {
+  padding: 10px 20px;
+  display: grid;
+  place-items: center;
+  background-color: #346fde;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: solid 1px black;
+}
+
+.message{
+  margin: 10px 0;
+}
+.message-left {
+  text-align: left;
+  margin-right: auto;
+}
+
+.message-right {
+  text-align: right;
+  margin-left: auto;
+}
+
+
+@media(width < 768px){
+  .display {
+    padding: 50px 20px;
+  }
+  .input-message {
+      padding: 20px;
+  }
+  p{
+    font-size: 1rem;
+    margin: 5px;
+  }
+  .name{
+    font-size: 1rem;
+    font-weight: 800;
+  }
+}
