@@ -7,7 +7,7 @@ import { getDatabase } from "firebase/database"; // TODO: Add SDKs for Firebase 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_REACT_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_REACT_FIREBASE_DB_URL,
+  authDomain: import.meta.env.VITE_REACT_FIREBASE_URL,
   databaseURL: import.meta.env.VITE_REACT_FIREBASE_DB_URL,
   projectId: import.meta.env.VITE_REACT_FIREBASE_PROJECT_ID,
   storageBucket: import.meta.env.VITE_REACT_FIREBASE_STORAGE_BUCKET,
